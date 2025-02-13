@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+}
+.main{
+    margin: 0;
+    top: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img{
+    margin: 0 auto 0 auto;
+    width: 300px;
+
+}
+.buttons{
+    margin-top: 20%;
+    border: 2px solid black;    
+    padding-left: 30%;
+}
+.button{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    &:hover{
+    background-color: white;
+    color: black;
+}
+
+}
